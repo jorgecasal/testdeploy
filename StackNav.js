@@ -5,11 +5,11 @@ import SecondScreen from './SecondScreen';
 
 const Stack = createNativeStackNavigator();
 
-const StackNav = () => {
+const StackNav = () => (
   <Stack.Navigator>
     <Stack.Screen component={Home} name="Home" />
     <Stack.Screen component={SecondScreen} name="Second" />
-  </Stack.Navigator>;
-};
+  </Stack.Navigator>
+);
 
 export default StackNav;
